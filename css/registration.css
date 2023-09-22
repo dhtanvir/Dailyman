@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+/* Google Font */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style:none;
+}
+
+/* =========================== */
+/* =====Registration Form Start==== */
+
+.registration_form_part {
+  margin: 120px 0px 0px 0px ;
+  padding: 50px 0px 0px 0px;
+  height: 100vh;
+  background-image: url("/img/img01.png");
+  /* background-attachment: ; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.registration_form_main_con{
+  padding: 35px 0px 0px 0px;
+  display: grid;
+  place-content: center;
+}
+.registration_form_body_con{
+  height: 570px;
+  width: 815px;
+  background: linear-gradient(to right, #ffdf61c2 55%, #fff 45% ) ;
+}
+.registration_form_head_con h3{
+  padding: 40px 0px 20px  0px ;
+  color:#FE6E00 ;
+  font-weight: 700;
+  text-align: center;
+}
+.registration_body_text_con ul li{
+  list-style:disc;
+  padding: 8px 0px;
+  font-weight: 700;
+}
+.registration_form_second_head_con h3{
+  padding: 32px 0px 20px  0px ;
+  text-align: center;
+}
+.registration_form_second_head_con p{
+  padding: 0px 0px 10px  15px ;
+  text-align: left;
+  font-size: 14px;
+}
+/* .registration_form_button_con .btn 
+.btn-primary{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  } */
+  .registration_form_button_con .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #0b5ed7;
+    border: 1px solid transparent;
+    padding: 0.375rem 2.75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+/* =====Registration Form End==== */
+
+
+
+
+
+
+
+
+

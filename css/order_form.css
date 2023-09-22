@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+/* Google Font */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+/* =========================== */
+/* ======Order_Form_Start===== */
+.order_form_part {
+  margin: 0px 0px;
+  padding: 140px 0px 80px 0px;
+  background-image: url("/img/deliman_img.PNG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.order_form_main_con {
+  margin: 0px 0px;
+  padding: 70px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_form_body_con {
+  height: 450px;
+  width: 475px;
+  background-color: rgba(14, 24, 33, 0.7);
+  border-radius: 10px;
+}
+.merchant_order_form_text_con h5 {
+  padding: 50px 0px 0px 0px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffff;
+  text-align: center;
+}
+.merchant_form_con {
+  padding: 50px 30px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  background-color: rgba(255, 255, 254, 0.57);
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  border: none;
+}
+.btn_submit{
+    height: 40px;
+    width: 190px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #FE6E00;
+    border:none;
+    border-radius: 10px;
+}
+
+
+
+/* ======Order_Form_End===== */
